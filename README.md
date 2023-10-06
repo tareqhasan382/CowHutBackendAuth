@@ -7,9 +7,16 @@
 <li class="has-line-data" data-line-start="8" data-line-end="10">Use Mongoose as the Object Data Modeling (ODM) and validation library for MongoDB.</li>
 </ul>
 <h1 class="code-line" data-line-start=10 data-line-end=11 ><a id="API_end_Points_10"></a>API end Points</h1>
+<p class="has-line-data" data-line-start="24" data-line-end="25">===================== Profile ========================</p>
+<ul>
+<li class="has-line-data" data-line-start="25" data-line-end="26">/api/v1/users/my-profile (GET)</li>
+<li class="has-line-data" data-line-start="25" data-line-end="26">/api/v1/users/my-profile (patch)</li>
+</ul>
 <p class="has-line-data" data-line-start="24" data-line-end="25">===================== users ========================</p>
 <ul>
 <li class="has-line-data" data-line-start="25" data-line-end="26">/api/v1/auth/signup (POST)</li>
+<li class="has-line-data" data-line-start="25" data-line-end="26">/api/v1/auth/login (POST)</li>
+<li class="has-line-data" data-line-start="25" data-line-end="26">/api/v1/auth/refresh-token (POST)</li>
 <li class="has-line-data" data-line-start="26" data-line-end="27">/api/v1/users (Get alls)</li>
 <li class="has-line-data" data-line-start="27" data-line-end="28">/api/v1/users/6516ac7e802242424008e7f5 (Get single)</li>
 <li class="has-line-data" data-line-start="28" data-line-end="29">/api/v1/users/6516ac7e802242424008e7f5 (PATCH)</li>
@@ -33,4 +40,5 @@
 <ul>
 <li class="has-line-data" data-line-start="32" data-line-end="33">/api/v1/orders (POST)</li>
 <li class="has-line-data" data-line-start="32" data-line-end="33">/api/v1/orders (GET)</li>
+<li class="has-line-data" data-line-start="32" data-line-end="33">/api/v1/orders/:id (GET)</li>
 </ul>
