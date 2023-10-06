@@ -12,6 +12,11 @@
 <li class="has-line-data" data-line-start="25" data-line-end="26">/api/v1/users/my-profile (GET)</li>
 <li class="has-line-data" data-line-start="25" data-line-end="26">/api/v1/users/my-profile (patch)</li>
 </ul>
+<p class="has-line-data" data-line-start="24" data-line-end="25">===================== admins ========================</p>
+<ul>
+<li class="has-line-data" data-line-start="25" data-line-end="26">/api/v1/admins/create-admin (POST)</li>
+<li class="has-line-data" data-line-start="25" data-line-end="26">/api/v1/admins/login (POST) (patch)</li>
+</ul>
 <p class="has-line-data" data-line-start="24" data-line-end="25">===================== users ========================</p>
 <ul>
 <li class="has-line-data" data-line-start="25" data-line-end="26">/api/v1/auth/signup (POST)</li>
